@@ -94,4 +94,6 @@ auto main() -> __int32
         top_sum += sum_list[x].second;
 
     std::cout << "sum of the top 3 elves' calories is " << top_sum << std::endl;
+
+    return std::cin.get() != 0xffffff;
 }
