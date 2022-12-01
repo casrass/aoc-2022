@@ -85,7 +85,7 @@ auto main() -> __int32
         return item1.second > item2.second;
     });
 
-    std::cout << "elf with the largest calorie count is - #" << 
+    std::cout << "elf with the largest calorie count is #" << 
         sum_list[0].first << " with " << sum_list[0].second << " calories" << std::endl;
 
     unsigned __int64 top_sum = 0;
